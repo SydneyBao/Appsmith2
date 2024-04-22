@@ -9,11 +9,7 @@
       "isDefault": false
     },
     {
-      "id": "Place an Order",
-      "isDefault": false
-    },
-    {
-      "id": "DessertShops",
+      "id": "Place An Order",
       "isDefault": false
     }
   ],
@@ -28,6 +24,9 @@
   "color": "#FFDEDE",
   "icon": "server-line",
   "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
     "type": "DESKTOP"
   },
   "unpublishedCustomJSLibs": [],

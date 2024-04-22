@@ -3,7 +3,7 @@
     "boxShadow": "none",
     "widgetName": "refresh_btn",
     "rightColumn": 64,
-    "onClick": "{{SelectQuery.run()}}",
+    "onClick": "{{GetOrders.run()}}",
     "iconName": "refresh",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "widgetId": "typ9jslblf",

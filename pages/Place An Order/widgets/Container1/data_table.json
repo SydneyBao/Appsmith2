@@ -4,7 +4,7 @@
     "onSort": "",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.db8a9cbd.svg",
-    "topRow": 6,
+    "topRow": 73,
     "isSortable": true,
     "onPageChange": "{{GetOrders.run()}}",
     "type": "TABLE_WIDGET_V2",
@@ -24,12 +24,12 @@
         {"key": "primaryColumns.userID.computedValue"},
         {"key": "primaryColumns.rowIndex.computedValue"}
     ],
-    "leftColumn": 1,
+    "leftColumn": 42,
     "delimiter": ",",
     "defaultSelectedRowIndex": "0",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisibleFilters": true,
-    "isVisible": "true",
+    "isVisible": false,
     "enableClientSideSearch": true,
     "version": 3,
     "totalRecordsCount": 0,
@@ -53,7 +53,8 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713816883832,
+    "columnUpdatedAt": 1713818855027,
+    "originalBottomRow": 89,
     "primaryColumnId": "orderID",
     "columnSizeMap": {
         "task": 245,
@@ -76,7 +77,7 @@
         {"key": "tableData"}
     ],
     "displayName": "Table",
-    "bottomRow": 85,
+    "bottomRow": 89,
     "parentRowSpace": 10,
     "hideCard": false,
     "parentColumnSpace": 16.3125,
@@ -138,7 +139,7 @@
             "allowCellWrapping": false,
             "index": 0,
             "isDiscardVisible": true,
-            "isVisible": true,
+            "isVisible": false,
             "label": "orderID",
             "fontStyle": "",
             "textColor": "",
@@ -343,7 +344,7 @@
         "buttonLabelColor": "#FFFFFF"
     }},
     "labelTextSize": "0.875rem",
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "icx7cf3936",
     "enableServerSideFiltering": false,
@@ -355,6 +356,7 @@
     "renderMode": "CANVAS",
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": false,
+    "originalTopRow": 73,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
