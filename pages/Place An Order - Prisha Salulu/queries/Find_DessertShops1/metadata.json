@@ -59,7 +59,7 @@
           ]
         },
         "tableHeaderIndex": {
-          "data": "1"
+          "data": "2"
         },
         "where": {
           "data": {
@@ -81,10 +81,10 @@
         "key": "formData.where.data"
       },
       {
-        "key": "formData.sortBy.data"
+        "key": "formData.pagination.data"
       },
       {
-        "key": "formData.pagination.data"
+        "key": "formData.sortBy.data[0].column"
       }
     ],
     "isValid": true,

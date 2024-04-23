@@ -77,7 +77,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 98,
+                "sourceData": 27,
                 "fieldType": "Number Input"
             },
             "orderDate": {
@@ -112,7 +112,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "userID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "User ID",
                 "originalIdentifier": "userID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
@@ -121,7 +121,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": 8,
+                "sourceData": 48,
                 "fieldType": "Number Input"
             }
         },

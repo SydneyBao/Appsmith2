@@ -20,7 +20,7 @@
                 "boxShadow": "none",
                 "isRequired": false,
                 "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => ( \n    new Date(new Date().getTime() + 30 * 60000).getHours() + \":\" + (new Date().getMinutes() < 10 ? \"0\" : \"\") + new Date(new Date().getTime() + 30 * 60000).getMinutes()\n))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (new Date(new Date().getTime() + 30 * 60000).getHours() + \":\" + (new Date().getMinutes() < 10 ? \"0\" : \"\") + new Date(new Date().getTime() + 30 * 60000).getMinutes()))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(insert_form.sourceData, insert_form.formData, insert_form.fieldState)}}",
                 "dataType": "string",
                 "accessor": "deliveryTime",
@@ -209,7 +209,6 @@
         {"key": "schema.__root_schema__.children.orderID.accentColor"},
         {"key": "schema.__root_schema__.children.totalPrice.borderRadius"},
         {"key": "schema.__root_schema__.children.totalPrice.accentColor"},
-        {"key": "schema.__root_schema__.children.deliveryTime.defaultValue"},
         {"key": "schema.__root_schema__.children.deliveryTime.borderRadius"},
         {"key": "schema.__root_schema__.children.deliveryTime.accentColor"},
         {"key": "schema.__root_schema__.children.orderDate.defaultValue"},
@@ -219,7 +218,8 @@
         {"key": "schema.__root_schema__.children.userID.borderRadius"},
         {"key": "schema.__root_schema__.children.userID.accentColor"},
         {"key": "schema.__root_schema__.children.totalPrice.defaultValue"},
-        {"key": "schema.__root_schema__.children.totalPrice.minNum"}
+        {"key": "schema.__root_schema__.children.totalPrice.minNum"},
+        {"key": "schema.__root_schema__.children.deliveryTime.defaultValue"}
     ],
     "borderWidth": "0",
     "sourceData": "{{_.omit(data_table.tableData[0], \"customColumn1\")}}",

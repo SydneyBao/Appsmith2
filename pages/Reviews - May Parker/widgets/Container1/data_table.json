@@ -47,7 +47,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713832526298,
+    "columnUpdatedAt": 1713842218372,
     "primaryColumnId": "id",
     "columnSizeMap": {
         "task": 245,

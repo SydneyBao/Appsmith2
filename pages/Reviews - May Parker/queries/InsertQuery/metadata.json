@@ -122,10 +122,16 @@
           "data": "1",
           "viewType": "component",
           "componentData": "1"
+        },
+        "where": {
+          "data": {
+            "condition": "AND"
+          }
         }
       }
     },
     "executeOnLoad": false,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
