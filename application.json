@@ -1,12 +1,8 @@
 {
   "pages": [
     {
-      "id": "Home",
-      "isDefault": true
-    },
-    {
       "id": "Place An Order - Prisha Salulu",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Orders Placed - Sameera Hollan",
