@@ -10,4 +10,6 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ##### You can visit the application using the below link
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ]([https://app.appsmith.com/applications/662551cad80c6a2df405f4d0/pages/662551cad80c6a2df405f4d3](https://app.appsmith.com/app/appsmith/place-an-order-prisha-salulu-6626cbc02f153f12532329ab?branch=master)) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/662551cad80c6a2df405f4d0/pages/662551cad80c6a2df405f4d3/edit)
+###### [![View Application](https://assets.appsmith.com/git-sync/Buttons.svg)](https://app.appsmith.com/app/appsmith/place-an-order-prisha-salulu-6626cbc02f153f12532329ab?branch=master) [![Edit Application](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/662551cad80c6a2df405f4d0/pages/662551cad80c6a2df405f4d3/edit)
+
+
